@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Appetizers</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Description">
+		<meta name="author" content="Lucas Cleric">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="External/css.css"/>
+		<link rel="stylesheet" href="External/responsive.css" media="screen and (max-width: 959px)"/>
+		<script src="External/javascript.js"></script>
+	</head>
+
+	<body>
+		<header><img src="Images/headerimg1.png" alt="Logo" width="100%" height="auto"/></header>
+		<nav>
+			<ul id="nav">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="menu.html">Menu</a>
+					<ul>
+						<li><a href="specials.html">Specials</a></li>
+						<li><a href="app.html">Appetizers</a></li>
+						<li><a href="pizza.html">Pizza</a></li>
+						<li><a href="pasta.html">Pasta</a></li>
+						<li><a href="subs.html">Subs</a></li>
+						<li><a href="salads.html">Salads</a></li>
+						<li><a href="desserts.html">Desserts</a></li>
+						<li><a href="drinks.html">Drinks</a></li>
+					</ul>	
+				</li>
+				<li><a href="coupons.html">Coupons</a></li>
+				<li><a href="catering.html">Catering</a>
+					<ul>
+						<li><a href="party.html">Party Subs</a></li>
+						<li><a href="economy.html">Economy Trays</a></li>
+						<li><a href="rsalads.html">Refreshing Salads</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<div id="wrapper1">
+			<div id="number-hours">
+				<span id="mainnumber">661-265-8585</span><br/>
+				<span id="mindeliv">Minimum $10 Purchase for Delivery</span><br/>
+				<span id="sehabla">Se Habla Español</span><br/>
+				<span id="hours">Mon-Thurs 11am-9pm, Fri-Sun 11am-10pm</span><br/>
+			</div>
+			<hr>
+			<div id="content1">
+				<img src="Images/app1.jpg" alt="Appetizer Image"/><br/>
+				<h1>Appetizers</h1>
+				<h2>Mozzarella Marinara (8) $5.99<br/>
+				Garlic Cheese Sticks $5.49<br/>
+				Side Sausage (2) $4.99<br/>
+				Garlic Bread w/ Cheese $2.99<br/>
+				Zucchini Sticks $5.99<br/>
+				French Fries $2.99<br/>
+				Potato Cheese Munchers $5.99<br/>
+				Wings (10) $6.99<br/>
+				Side Meatballs (4) $4.99<br/>
+				Garlic Bread $2.49<br/>
+				Loaf of Bread $1.99<br/>
+				Garlic Cheese Rolls (4) $5.99<br/>
+				Stuffed Jalapeños $4.99<br/>
+				12 Boneless Chicken Wings $6.99</h2>
+			<hr>
+			</div>
+		</div>	
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<span class="close">×</span>
+			<img class="modal-content" id="img01">
+			<div id="caption"></div>
+		</div>
+		<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById('galleryimg3');
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;}
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {modal.style.display = "none";}
+		</script>
+		<div id="ftmargin"></div>
+		<footer>
+			Copyright&copy; 2016 by Lucas Cleric<br/><span onclick="Print();">Print Page</span> - <span onclick="Report();">Report Abuse</span> 
+		</footer>
+	</body>
+</html>

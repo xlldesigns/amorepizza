@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Contact Us</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Description">
+		<meta name="author" content="Lucas Cleric">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="External/css.css"/>
+		<link rel="stylesheet" href="External/responsive.css" media="screen and (max-width: 959px)"/>
+		<script src="External/javascript.js"></script>
+	</head>
+
+	<body>
+		<header><img src="Images/headerimg1.png" alt="Logo" width="100%" height="auto"/></header>
+		<nav>
+			<ul id="nav">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="menu.html">Menu</a>
+					<ul>
+						<li><a href="specials.html">Specials</a></li>
+						<li><a href="app.html">Appetizers</a></li>
+						<li><a href="pizza.html">Pizza</a></li>
+						<li><a href="pasta.html">Pasta</a></li>
+						<li><a href="subs.html">Subs</a></li>
+						<li><a href="salads.html">Salads</a></li>
+						<li><a href="desserts.html">Desserts</a></li>
+						<li><a href="drinks.html">Drinks</a></li>
+					</ul>	
+				</li>
+				<li><a href="coupons.html">Coupons</a></li>
+				<li><a href="catering.html">Catering</a>
+					<ul>
+						<li><a href="party.html">Party Subs</a></li>
+						<li><a href="economy.html">Economy Trays</a></li>
+						<li><a href="rsalads.html">Refreshing Salads</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<div id="wrapper2">
+			<div id="number-hours2">
+				<span id="mainnumber">661-265-8585</span><br/>
+				<span id="hours2">Mon-Thurs 11am-9pm, Fri-Sun 11am-10pm</span><br/>
+			</div>
+			<hr>
+			<div class="contactdiv">
+				
+				<form id="contactform" method="get" onsubmit="contact();">
+					<label>First Name:</label><input id="firstname" type="text" name="firstname" maxlength="20" placeholder="First Name" size="40"/><br/>
+					<label>Last Name:</label><input id="lastname" type="text" name="lastname" maxlength="20" placeholder="Last Name" size="40"/><br/>
+					<label>Phone:</label><input id="phone" type="text" name="phone" maxlength="12" placeholder="Phone" size="40"/><br/>
+					<label>Email:</label><input id="email" type="text" name="email" maxlength="30" placeholder="Email" size="40"/><br/>
+					<label>Question?</label><input id="question" type="checkbox" name="bg1" value="question"/><br/>
+					<label>Comment?</label><input id="comment" type="checkbox" name="bg1" value="comment"checked="checked"/><br/>
+					<textarea id="contacttxtarea" name="comments"></textarea><br/>
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+			<div class="contactdiv">
+				3025 East Avenue S
+				<div id="googlemap"></div><script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+			</div>
+		</div>
+		
+		<footer>
+			Copyright&copy; 2016 by Lucas Cleric<br/><span onclick="Print();">Print Page</span> - <span onclick="Report();">Report Abuse</span> 
+		</footer>
+	</body>
+</html>

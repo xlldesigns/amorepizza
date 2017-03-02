@@ -1,0 +1,92 @@
+#wrapper1{width:100%;}
+#wrapper2{width:100%;}
+#number-hours{width:380px; height:82px;padding:10px;}
+#number-hours2{width:380px; height:45px;padding:10px;}
+#mainnumber{font-size:30px;}
+#mindeliv{font-size:18px;}
+#sehabla{font-size:16px;}
+#hours{font-size:18px;}
+#hours2{font-size:18px;}
+.coupondata{height:180px;}
+.coupondata h1{font-size:42px;}
+.imglayoutdiv{width:50%;}
+#imagelayout img{width:90%;height:220px;}
+
+@media screen and (max-width:700px) {
+	#indexwrapper{width:100%;}
+	#indexwrapper a{font-size:30px;}
+	#indexwrapper a:hover{font-size:37px;}
+	#indexwrapper a:active{font-size:37px;}
+	#indexwrapper a:visited{font-size:30px;}
+	header{width:100%;}
+	nav{height:42px; line-height:42px; margin-bottom:15px;}
+	#nav li{margin:0px 8px;}
+	#nav a{font-size:17px;}
+	#nav a:hover{font-size:21px;}
+	#nav a:visited{font-size:17px;}
+	#nav ul{width:200px;}
+	#number-hours{width:300px; height:75px;padding:8px;}
+	#number-hours2{width:300px; height:42px;padding:8px;}
+	#mainnumber{font-size:25px;}
+	#mindeliv{font-size:14px;}
+	#sehabla{font-size:12px;}
+	#hours{font-size:14px;}
+	#hours2{font-size:14px;}
+	hr{margin:15px 0px;}
+	#lefthome{width:92%; padding:0px 4%;float:none;}
+	#righthome{width:92%; padding:0px 4%;float:none;}
+	#googlemap{height:350px;}
+	.coupondata{width:92%;height:150px;margin:2%;padding:1%;}
+	.coupondata h1{font-size:46px;}
+	.coupondata h2{font-size:18px;}
+	#content1 img{width:400px;}
+	#imagelayout img{width:90%;height:180px;}
+}
+
+@media screen and (max-width:500px) {
+	#indexwrapper a{font-size:24px;}
+	#indexwrapper a:hover{font-size:30px;}
+	#indexwrapper a:active{font-size:30px;}
+	#indexwrapper a:visited{font-size:24px;}
+	nav{height:34px; line-height:34px; margin-bottom:10px;}
+	#nav li{margin:0px 5px;}
+	#nav a{font-size:13px;}
+	#nav a:hover{font-size:16px;}
+	#nav a:visited{font-size:13px;}
+	#nav ul{width:150px;}
+	#number-hours{width:288px; height:40px;padding:7px;}
+	#number-hours2{width:288px; height:40px;padding:7px;}
+	#mainnumber{font-size:22px;}
+	#mindeliv{display:none;}
+	#sehabla{display:none;}
+	#hours{position:relative; bottom:30px; font-size:12px;}
+	#hours2{font-size:12px;}
+	hr{margin:3px 0px;left:-999px;}
+	#righthome h1{font-size:25px;}
+	#righthome h2{font-size:20px;}
+	#righthome p{font-size:18px;}
+	#righthome h3{font-size:12px;}
+	#googlemap{margin:0px auto 20px auto;height:250px;}
+	#wrapper2{margin:0px auto 20px auto;}
+	#contactform{width:320px;line-height:30px;font-size:20px;}
+	label{width: 120px;text-align: left;}
+	#ftmargin{display:none;}
+	footer{position:static; bottom:auto;clear:left;}
+	.coupondata{height:155px;}
+	.coupondata h1{font-size:38px;}
+	.coupondata h2{font-size:16px;}
+	#content1 img{width:300px;}
+	.imglayoutdiv{width:100%;}
+	#imagelayout img{height:220px;}
+	#click{display:none;}
+}
+
+@media screen and (max-width:320px) {
+	#indexwrapper{width:320px;}
+	#wrapper1{width:320px;}
+	#wrapper2{width:320px;}
+	header{width:320px;}
+	nav{width:320px;}
+	.contactdiv{width:288px; padding: 0px 16px;}
+	.imglayoutdiv{width:320px;}
+}

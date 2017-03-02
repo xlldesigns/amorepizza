@@ -1,0 +1,485 @@
+body{
+	margin:0px auto;
+	background-color:white;
+}
+
+@font-face {
+    font-family: ConcertOne-Regular;
+    src: url(ConcertOne-Regular.ttf);
+}
+@font-face {
+    font-family: Metropolis-Bold;
+    src: url(Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: Metropolis-SemiBold;
+    src: url(Metropolis-SemiBold.otf);
+}
+@font-face {
+    font-family: Metropolis-MediumItalic;
+    src: url(Metropolis-MediumItalic.otf);
+}
+@font-face {
+    font-family: Metropolis-Medium;
+    src: url(Metropolis-Medium.otf);
+}
+@font-face {
+    font-family: Metropolis-Black;
+    src: url(Metropolis-Black.otf);
+}
+
+/*Welcome*/
+#indexwrapper{
+	width:700px;
+	margin:0px auto;
+	text-align:center;
+}
+
+#indexwrapper a{
+	text-decoration:none;
+	font-family:ConcertOne-Regular;
+	font-size:40px;
+	color:#006837;
+	transition:all 0.7s;
+}
+#indexwrapper a:hover{
+	font-size:50px;
+}
+#indexwrapper a:active{
+	color:#ff0000;
+	transition:color 0s;
+}
+#indexwrapper a:visited{
+	color:#006837;
+	font-size:40px;
+}
+
+/*Header*/
+header{
+	width:700px;
+	margin:0px auto;
+	margin-top:5px;
+}
+
+/*Nav*/
+nav{
+	background: #006837; /* For browsers that do not support gradients */
+	background: linear-gradient(black,#006837 30%, #006837 70%, black); /*Standard syntax*/
+	background: -webkit-linear-gradient(black,#006837 30%, #006837 70%, black); /*For Safari*/
+	background: -o-linear-gradient(black,#006837 30%, #006837 70%, black); /*For Opera*/
+	background: -moz-linear-gradient(black,#006837 30%, #006837 70%, black); /*For Firefox*/
+	width:100%;
+	height:50px;
+	line-height:50px;
+	margin-bottom:20px;
+}
+#nav{
+    list-style:none;
+    float:left;
+    left:50%;
+    position:relative;
+	margin:0;
+	padding:0;
+    z-index:5;
+}
+#nav li{
+    float:left;
+    position:relative;
+	list-style:none;
+	right:50%;
+	margin:0px 10px;
+}
+#nav a{
+    display:block;
+    color:white;
+    background:rgba(0,0,0,0);
+	font-family: Metropolis-SemiBold;
+	font-size:20px;
+    text-decoration:none;
+	transition:all 0.5s;
+}
+#nav a:hover{
+    color:yellow;
+	font-size:25px;
+}
+#nav a:active{
+    color:#ff0000;
+}
+#nav a:visited{
+    color:white;
+	font-size:20px;
+}
+/*--- DROPDOWN ---*/
+#nav ul{
+    background:#006837;
+    list-style:none;
+    position:absolute;
+	display:none;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	width:250px;
+	left:-80px;
+	line-height:2;
+}
+#nav ul li{
+    float:none;
+	left:auto;
+	right:auto;
+}
+#nav ul a{
+    white-space:nowrap;
+}
+#nav li:hover ul{
+	display:block;
+}
+
+/*Main*/
+#wrapper1{
+	width:960px;
+	margin:0px auto 20px auto;
+}
+
+hr{
+	border:3px solid #006837;
+	width:90%;
+	margin:20px 0px;
+	position:relative;
+	left:5%;
+	clear:both;
+}
+#content1{
+	width:94%;
+	padding:0px 3%;
+	text-align:center;
+}
+#content1 img{
+	width:600px;
+	height:auto;
+}
+#content1 h1{
+	color:#006837;
+	font-family: Metropolis-Bold;
+	font-size:35px;
+}
+#content1 h2{
+	color:#006837;
+	font-family: Metropolis-Medium;
+	font-size:24px;
+}
+#content1 h3{
+	color:#006837;
+	font-family: Metropolis-Medium;
+	font-size:16px;
+}
+#imagelayout img{
+	width:297px;
+	height:180px;
+	margin:10px 10px 0px 10px;
+	transition:0.5s;
+}
+#imagelayout img:hover{
+	opacity:0.7;
+}
+#imagelayout a{
+	font-family: Metropolis-Bold;
+	font-size:35px;
+	color:#006837;
+	text-decoration:none;
+	transition:0.5s;
+}
+#imagelayout a:hover{
+	color:#ff0000;
+}
+#imagelayout a:active{
+	color:#ff0000;
+}
+#imagelayout a:visited{
+	color:#006837;
+}
+.imglayoutdiv{
+	width:317px;
+	text-align:center;
+	color:#006837;
+	float:left;
+	margin-bottom:10px;
+}
+
+
+/*Home*/
+#number-hours{
+	background-color:#006837;
+	width:440px;
+	height:92px;
+	margin:0 auto;
+	padding:10px;
+	color:white;
+	text-align:center;
+	line-height:1;
+}
+#mainnumber{
+	font-family: Metropolis-Bold;
+	font-size:35px;
+}
+#mindeliv{
+	font-family: Metropolis-Medium;
+	font-size:20px;
+}
+#sehabla{
+	font-family: Metropolis-MediumItalic;
+	font-size:18px;
+}
+#hours{
+	font-family: Metropolis-Bold;
+	font-size:20px;
+}
+#lefthome{
+	width:46%;
+	padding:0px 2%;
+	float:left;
+	margin-bottom:20px;
+}
+#righthome{
+	width:46%;
+	padding:0px 2%;
+	float:left;
+	text-align:center;
+	margin-bottom:20px;
+}
+#righthome h1{
+	font-family: Metropolis-Bold;
+	font-size:30px;
+}
+#righthome h2{
+	font-family: Metropolis-Medium;
+	font-size:25px;
+}
+#righthome p{
+	font-family: Metropolis-Medium;
+	font-size:20px;
+}
+#righthome h3{
+	font-family: Metropolis-Medium;
+	font-size:14px;
+}
+#googlemap{
+	width:80%;
+	height:500px;
+	background-color:black;
+	clear:both;
+	margin:0px auto 65px auto;
+}
+
+/*Coupons*/
+#coupon1{
+	text-align:center;
+	color:#006837;
+	Margin:50px auto;
+	padding:0px 10px;
+}
+#coupon1 h1{
+	font-family: Metropolis-Bold;
+	font-size:35px;
+}
+#coupon1 h2{
+	font-family: Metropolis-MediumItalic;
+	font-size:30px;
+}
+#coupon2{
+	width:100%;
+	margin:0px auto 20px auto;
+}
+.coupondata{
+	width:43%;
+	height:150px;
+	margin:2%;
+	padding:1%;
+	text-align:center;
+	float:left;
+	border:2px solid #006837;
+	background: #006837; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #006837 , white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #006837, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #006837, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #006837 , white); /* Standard syntax */
+}
+.coupondata h1{
+	font-family: Metropolis-Black;
+	font-size:46px;
+	color:#ff0000;
+	padding:0px;
+	margin:0px;
+}
+.coupondata h2{
+	font-family: Metropolis-Medium;
+	font-size:18px;
+	color:black;
+	padding:0px;
+	margin:0px;
+}
+
+/*Contact*/
+#wrapper2{
+	width:960px;
+	margin:0px auto 20px auto;
+	margin:0px auto 65px auto;
+}
+#number-hours2{
+	background-color:#006837;
+	width:440px;
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	color:white;
+	text-align:center;
+	line-height:1;
+}
+#hours2{
+	font-family: Metropolis-Bold;
+	font-size:20px;
+}
+.contactdiv{
+	width:90%;
+	padding:0px 5%;
+	text-align:center;
+}
+#contactform{
+	border:2px solid #006837;
+	width:400px;
+	margin:0px auto 30px auto;
+	padding:10px;
+	line-height:30px;
+	font-family: Metropolis-Medium;
+	font-size:20px;
+	color:#006837;
+	text-align:center;
+}
+label{
+    float: left;
+    width: 120px;
+    text-align: right;
+}
+input {
+  float: left;
+}
+#contacttxtarea{
+	width:80%;
+	height:200px;
+}
+
+#click{
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	z-index:5;
+}
+
+/*Footer*/
+#ftmargin{
+	width:100%;
+	height:41px;
+	clear:left;
+}
+footer{
+	background:#006837;
+	width:100%;
+	height:41px;
+	line-height:1.5;
+	text-align:center;
+	font-family: Metropolis-Medium;
+	font-size:12px;
+	color:white;
+	margin-top:20px;
+	padding-top:4px;
+	position:fixed;
+	bottom:0px;
+}
+footer span{
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+	transition:all 0.5s;
+}
+footer span:hover{
+	font-family: Metropolis-SemiBold;
+	font-size:15px;
+	color:yellow;
+}
+footer span:active{
+	color:#ff0000;
+}
+footer span:visited{
+	font-family: Metropolis-Medium;
+	font-size:12px;
+	color:white;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 6; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
